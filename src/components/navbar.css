@@ -1,0 +1,152 @@
+header{
+   
+    width: 1900px;
+    height:80px ;
+    justify-content: space-between;
+    display: flex;
+    position: fixed;
+    z-index: 9999;
+    background-color:rgba(15, 23, 43, .9) ;
+    
+}
+
+#logo{
+    padding-left: 120px;
+    font-size: 40px;
+    position: relative;
+    text-decoration: none;
+    color: orange;
+    top: 20px;
+    font-weight: 800;
+}
+#navbar{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 150px;
+   
+}
+.nav{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px; 
+    transition: .5s; 
+     
+}
+.nav:hover{
+    color: orange;
+    transition: 0.8s;
+}
+.btn{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    transition: .5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color: orange;
+    transition: 0.5s;
+}
+
+.btn_1{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    transition: .5s;
+
+}
+
+.btn_1:hover{
+    background-color: white;
+    color: orange;
+    transition: 0.5s;
+}
+
+.container{
+    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("F:\New folder (3)\course\restro\src\assets\bg-hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    max-height: 920px;   
+    width: 1900px;
+}
+.home{
+    display: flexbox;
+    padding: 300px 100px;
+    
+}
+#text_1{
+    font-size: 95px;
+    color: white;
+    margin: -5px;
+}
+#para_1{
+    font-size: 22px;
+    color: white;
+}
+.circle{
+display: flex;
+justify-content: flex-end;
+margin-top: -520px;
+padding: 0px 10px;
+}
+.circle img {
+    animation: imgRotate 50s linear infinite;
+    width: 650px;
+    height: 650px;
+   
+}
+
+@keyframes imgRotate { 
+    100% { 
+        transform: rotate(360deg); 
+    } 
+}
+
+  @media screen and (max-width: 1440px){
+    .nav,.btn{
+        position: relative;
+        left: -350px;
+        font-size: 15px;
+    }
+    #logo{
+        font-size: 30px;
+        margin: 4px 20px;   
+    }
+    #text_1{
+        font-size: 60px;
+    }
+    #para_1{
+        font-size: 18px;
+    }
+    .circle img{
+        margin: 100px 360px;  
+        width: 600px;
+        height: 600px;   
+    } 
+  }
+
+@media screen and (max-width: 767px){
+    .container {
+        width: 898px;
+        min-height: 230vh;    
+    }
+    .circle img{
+        width: 340px;
+        justify-content: center;
+        height: 340px;
+    }
+}

@@ -1,0 +1,127 @@
+main{
+    background-color: white;
+    
+    width: 1900px;
+    height: 900px
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;  
+    padding: 50px;
+}
+.box{
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s;
+    background-color:var(--primary);
+    padding: 20px 50px;
+    margin: 50px 30px;
+    width: 250px;
+    height: 250px;  
+}
+.box2{
+    padding: 0px 18px;
+    margin: 38px -30px;
+}
+.fas-fa{
+    color: orange;
+}
+.box:hover{
+    color:white;
+    background-color: orange;
+}
+.fas-fa:hover{
+   color:white;
+}
+
+.pic{
+    padding: 0px 70px;
+}
+
+.img1{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 3px;
+
+}
+
+.img2{
+    width: 300px;
+    height: 300px;
+    padding: 0px 20px;
+}
+
+.pics{
+    padding: 0px 70px;
+}
+
+.img3{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 103px;
+    top: 10px;
+}
+.img4{
+    width: 400px;
+    height: 400px;
+    padding: 10px 120px;
+    position: absolute;
+  
+}
+
+.about{
+    text-align:justify;  
+    position: relative;
+    bottom: 610px;
+    left: 1027px;
+}
+#title{
+    color: orange;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    line-height: 0px;
+}
+#line{
+    width: 50px;
+    border: 1px solid orange;
+    margin: 1px 120px;
+}
+
+#title2{
+    font-size: 40px;
+    line-height: 0px;
+}
+.para3{
+    font-size: 20px;
+}
+
+
+
+#fav{
+    color: orange;
+}
+
+
+
+
+
+.btn_2{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    padding: 8px 22px;
+    border-radius: 3px;
+    background-color: orange;
+    color: white;
+    transition: .5s;
+
+}
+
+.btn_2:hover{
+    background-color: white;
+    color: orange;
+    transition: 0.5s;
+}
