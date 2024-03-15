@@ -76,7 +76,7 @@ header{
 }
 
 .container{
-    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url("F:\New folder (3)\course\restro\src\assets\bg-hero.jpg");
+    background-image: linear-gradient(rgba(15, 23, 43, .9), rgba(15, 23, 43, .9)), url(../assets/bg-hero.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
